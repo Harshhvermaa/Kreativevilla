@@ -77,6 +77,35 @@
     transform: translate(2px ,2px);
   }
   
+  /* Converted CSS Code */
+
+/* Group 1 */
+.tw-group:hover .tw-absolute {
+    opacity: 1;
+    transform: translateY(-150%) skewY(20deg);
+    transition-delay: 500ms;
+  }
+  
+  .tw-group:hover .tw-absolute .tw-rounded-md {
+    opacity: 0;
+    transform: scale(1.15);
+    transition-delay: 700ms;
+  }
+  
+  /* Group 2 */
+  .tw-group:hover .tw-shadow-md {
+    gap: 2;
+    background-color: #5e43ff;
+    font-size: 1rem;
+  }
+  
+  /* Group 3 (inside the second group) */
+  .tw-group:hover .tw-group2:hover .tw-text-sm {
+    font-size: 1rem;
+  }
+  
+
+
 /*
 button[title]:hover::after {
     content: attr(title);
@@ -95,4 +124,83 @@ button[title]:hover::after {
     padding: 7px 50px;
     border-radius: 30px;
     border-color: #5e43ff;
+} */
+/* .touch-img::before {
+    content: "";
+     position: absolute; 
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid #00f;
+    box-shadow: 0 0 0 5px #f00;
+    border-radius: 5%;
+    pointer-events: none;
+}
+
+.mc-animation-outer-ring {
+    outline: 1px solid #00f;
+    border-radius: 100%;
+    animation: wave 2s 10ms infinite alternate;
+}
+
+
+
+.touch-text a {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #5e43ff;
+    text-decoration: none;
+}
+
+.touch-text {
+    text-align: center;
+}
+
+.mc-animation-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 15px;
+    max-height:120px; 
+}
+
+.mc-animation-wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid #ccc; 
+    border-radius: 100%;
+    /* animation: waveOuter 1s infinite alternate; 
+}
+
+
+@keyframes waveOuter {
+    0% {
+        padding: -10px;
+        width: 100px;
+    }
+
+    100% {
+        padding: 1rem;
+        width: 100px;
+    }
+}
+
+.mc-animation-container {
+    max-width: 120px;
+}
+
+
+
+@keyframes wave {
+    0% {
+        padding: 0;
+    }
+
+    100% {
+        padding: 1rem;
+    }
 } */
