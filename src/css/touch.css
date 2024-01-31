@@ -59,7 +59,7 @@
   }
   /* hover effect on button width */
   .Btn:hover {
-    width: 240px;
+    width: 175px;
     border-radius: 80px;
     transition-duration: .3s;
   }
