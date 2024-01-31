@@ -9,7 +9,7 @@ export const Work = () => {
                 <div className='row pb-5'>
                     <div className='col-md-3 col-12'>
                         <div className='work-content'>
-                            <h4>Results-driven digital marketing agency Sunshine Coast</h4>
+                            <h4>Results-driven digital marketing agency!</h4>
                         </div>
                     </div>
                     <div className='col-md-3 col-12'>
@@ -40,7 +40,7 @@ export const Work = () => {
                     <div className='col-md-3 col-12'>
                         <div className='work-content'>
                             <h4>Done it for them, We
-                                can do it for you!F</h4>
+                                can do it for You</h4>
                             <p>Explore our case studies
                                 demonstrating our award-winning
                                 web design services and impact-

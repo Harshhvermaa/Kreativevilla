@@ -28,9 +28,13 @@
     border-radius: 25px;
     border: 2px solid #FFD4A2;
 }
+.header_btn a:hover::after{
+    transform: scale(1.1);
+}
 .navbar-expand-lg .navbar-nav{
     gap: 50px;
 }
 .header_btn{
+    transition: transfrom 1s ease;
     padding-left: 50px;
 }
