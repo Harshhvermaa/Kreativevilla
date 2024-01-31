@@ -15,7 +15,7 @@ export const Touch = () => {
                             <img className='touch-img' src='./images/arrow1.png' />
                         </div>
                             
-                        <div class="text">Get In Touch</div>
+                        <div class="text">Contact!</div>
                     </button>
 
                     </div>
