@@ -59,9 +59,9 @@
   }
   /* hover effect on button width */
   .Btn:hover {
-    width: 200px;
-    border-radius: 50px;
-    transition-duration: .2s;
+    width: 240px;
+    border-radius: 80px;
+    transition-duration: .3s;
   }
   
   .Btn:hover .sign {
