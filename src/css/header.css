@@ -1,0 +1,36 @@
+.navbar{
+    background-color: white !important;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-logo{
+    width: 80%;
+}
+.navbar-nav a{
+    font-weight: 600;
+    font-size: 14px;
+    color: Black;
+}
+.call-icon{
+    width: 3%;
+}
+.header_btn a{
+    background: #FFEFDC;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 30px;
+    border-radius: 25px;
+    border: 2px solid #FFD4A2;
+}
+.navbar-expand-lg .navbar-nav{
+    gap: 50px;
+}
+.header_btn{
+    padding-left: 50px;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+
+
+.footer-section{
+    background: #111111;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+/* .footer-logo img{
+    margin-bottom: 20px;
+} */
+.social-icon img{
+    padding-right: 10px;
+    width: 10%;
+}
+.footer-content h6{
+    color: #707070;
+    letter-spacing: 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer-content p{
+    color: rgb(240, 239, 239);
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}

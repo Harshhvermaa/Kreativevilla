@@ -1,0 +1,147 @@
+
+.service-section h4{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-service-box{
+    background: #f4f4f4;
+    border-radius: 25px;
+    padding: 90px 60px;
+}
+.main-service-box{
+    background: #f4f4f4;
+    border-radius: 25px;
+    padding: 90px 60px;
+    transition:  transform 0.8s ease;
+    
+}
+
+.main-service-box:hover {
+    box-shadow: 0 5px 35px 0px #8a75ff;
+    transform: scale(1.05);
+  }
+  
+.main-service-box:hover::before, .main-service-box:hover::after {
+    background: #8a75ff;
+    border-radius: 75px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+}
+  
+  .main-service-box:hover:after {
+    background: #8a75ff;
+    animation: 2s counterclockwise infinite;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
+.main-service-box h5{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.main-service-box p{
+    font-size: 14px;
+    margin-bottom: 4%;
+}
+.service-section{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.service-btn a{
+    color: #5E43FF !important;
+    border: 2px solid #5E43FF;
+    border-radius: 25px;
+    padding: 4px 21px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.brands{
+    text-align: center;
+}
+.brands img {
+    padding-right: 25px;
+    width: 11%;
+}
+
+.underlined {
+    border-bottom: 1px solid black; /* You can adjust the color and thickness of the line */
+    display: inline-block; /* Ensures the line only spans the width of the text */
+  }

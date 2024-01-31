@@ -1,0 +1,119 @@
+.touch-section{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.touch-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.touch-img{
+    width: 50%;
+    /* margin-left: 17px; */
+    text-align: center;
+}
+.touch-text a{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #5e43ff;
+}
+/*
+button[title]:hover::after {
+    content: attr(title);
+}
+/* button:hover{
+    border-radius: 100%;
+    border-color: white;
+} */
+/*
+.hover{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #5e43ff;
+    background-color: white;
+    padding: 7px 50px;
+    border-radius: 30px;
+    border-color: #5e43ff;
+} */
+.touch-img::before {
+    content: "";
+    /* position: absolute; */
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid #00f;
+    box-shadow: 0 0 0 5px #f00;
+    border-radius: 5%;
+    pointer-events: none;
+}
+
+.mc-animation-outer-ring {
+    outline: 1px solid #00f;
+    border-radius: 100%;
+    animation: wave 2s 10ms infinite alternate;
+}
+
+
+
+.touch-text a {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #5e43ff;
+    text-decoration: none;
+}
+
+.touch-text {
+    text-align: center;
+}
+
+.mc-animation-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 15px;
+    /* max-height:120px; */
+}
+
+.mc-animation-wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid #ccc; */
+    border-radius: 100%;
+    /* animation: waveOuter 1s infinite alternate; */
+}
+
+
+@keyframes waveOuter {
+    0% {
+        padding: -10px;
+        width: 100px;
+    }
+
+    100% {
+        padding: 1rem;
+        width: 100px;
+    }
+}
+
+.mc-animation-container {
+    max-width: 120px;
+}
+
+
+
+@keyframes wave {
+    0% {
+        padding: 0;
+    }
+
+    100% {
+        padding: 1rem;
+    }
+}

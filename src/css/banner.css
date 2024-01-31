@@ -1,0 +1,33 @@
+.container{
+    padding: 1%;
+}
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+.first-row .banner-content{
+    flex-basis: 60%;
+}
+.first-row .banner-image{
+    flex-basis: 40%;
+}
+.content h4{
+    color: #5E43FF;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 76px;
+}
+.sme{
+    font-weight: bold;
+}
+.content{
+    width: 72%;
+}
+.content a{
+    background: #5E43FF;
+    color: white !important;
+    padding: 7px 50px;
+    border-radius: 25px;
+}
