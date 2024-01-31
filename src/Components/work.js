@@ -9,7 +9,7 @@ export const Work = () => {
                 <div className='row pb-5'>
                     <div className='col-md-3 col-12'>
                         <div className='work-content'>
-                            <h4>Results-driven digital marketing agency!</h4>
+                            <h4>Results-driven<br></br> digital marketing agency!</h4>
                         </div>
                     </div>
                     <div className='col-md-3 col-12'>
@@ -48,6 +48,8 @@ export const Work = () => {
                         </div>
                     </div>
                 </div>
+                <br></br>
+                <br></br>
                 <div className='row views-row pb-5'>
                     <div className='views-line'>
                         <a><img className='views-img' src='./images/views-img.png' />1 Million Views Generated</a>

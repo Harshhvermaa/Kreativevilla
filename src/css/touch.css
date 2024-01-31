@@ -40,7 +40,7 @@
   /* plus sign */
   .sign {
     width: 100%;
-    transition-duration: .3s;
+    transition-duration: .2s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,9 +59,9 @@
   }
   /* hover effect on button width */
   .Btn:hover {
-    width: 270px;
-    border-radius: 80px;
-    transition-duration: .3s;
+    width: 200px;
+    border-radius: 50px;
+    transition-duration: .2s;
   }
   
   .Btn:hover .sign {
@@ -70,7 +70,7 @@
   /* hover effect button's text */
   .Btn:hover .text {
     opacity: 1;
-    width: 70%;
+    width: 80%;
   }
   /* button click effect*/
   .Btn:active {
