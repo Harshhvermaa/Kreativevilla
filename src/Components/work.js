@@ -60,9 +60,7 @@ export const Work = () => {
                     </div>
                 </div>
                 {/* <div className='row'> */}
-                    <div className='work-btn'>
-                        <a>See Our Work</a>
-                    </div>
+                <button className="blackbtn">See Our Work</button>
                 {/* </div> */}
             </div>
         </section>
