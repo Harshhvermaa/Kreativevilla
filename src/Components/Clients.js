@@ -4,7 +4,7 @@ import ClientCarousel from './ClientCaraosel'
 
 export const Clients = () => {
   return (
-    <div className='client-section'>
+    <div className='client-section' id='work'>
         <div className='container'>
             <div className='row'>
                 <div className='col-md-6'>
