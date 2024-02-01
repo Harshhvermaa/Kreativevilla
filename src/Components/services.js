@@ -3,7 +3,8 @@ import '../css/services.css'
 
 export const Services = () => {
     return (
-        <div className='service-section'>
+        <div className='service-section ' id='services'>
+            <hr /> <br />
             <h4>Our Services</h4>
             <div className='container'>
                 <div className='row justify-content-center'>

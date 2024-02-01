@@ -5,6 +5,8 @@
 .touch-title{
     font-size: 35px;
     text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 40px;
     font-weight: 600;
 }
@@ -21,157 +23,82 @@
     width: 22px;
 }
 
-.Btn {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 90%;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition-duration: .3s;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
-    background-color: #5e43ff;
-  }
-  
-  /* plus sign */
-  .sign {
-    width: 100%;
-    transition-duration: .2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* text */
-  .text {
-    position: absolute;
-    right: 0%;
-    width: 0%;
-    opacity: 0;
-    color: white;
-    font-size: 1.2em;
-    font-weight: 600;
-    transition-duration: .3s;
-  }
-  /* hover effect on button width */
-  .Btn:hover {
-    width: 175px;
-    border-radius: 80px;
-    transition-duration: .3s;
-  }
-  
-  .Btn:hover .sign {
-    width: 30%;
-  }
-  /* hover effect button's text */
-  .Btn:hover .text {
-    opacity: 1;
-    width: 80%;
-  }
-  /* button click effect*/
-  .Btn:active {
-    transform: translate(2px ,2px);
-  }
-  
-/*
-button[title]:hover::after {
-    content: attr(title);
+.tooltip-container {
+  position: relative;
+  background-color: #5e43ff;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 17px;
+  padding: 0.7em 1.8em;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 46.5%;
 }
-/* button:hover{
-    border-radius: 100%;
-    border-color: white;
-} */
-/*
-.hover{
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    color: #5e43ff;
-    background-color: white;
-    padding: 7px 50px;
-    border-radius: 30px;
-    border-color: #5e43ff;
-} */
-.touch-img::before {
-    content: "";
-    /* position: absolute; */
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    border: 2px solid #00f;
-    box-shadow: 0 0 0 5px #f00;
-    border-radius: 5%;
-    pointer-events: none;
+.tooltip-container .borde-back {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: none;
 }
 
-.mc-animation-outer-ring {
-    outline: 1px solid #00f;
-    border-radius: 100%;
-    animation: wave 2s 10ms infinite alternate;
+.tooltip-container .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color: #5e43ff;
+  cursor: pointer;
 }
 
-
-
-.touch-text a {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    color: #5e43ff;
-    text-decoration: none;
+.tooltip {
+  position: absolute;
+  top: -2;
+  left: -45px; 
+  transform: translateX(
+    -32%
+  );
+  width: 170px;
+  height: 52px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s;
+  border-radius: 50px;
+  background-color: #5e43ff;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 16px;
+  color: white;
+  font-size: 18px;
 }
 
-.touch-text {
-    text-align: center;
+.tooltip::before {
+  position: absolute;
+  height: 0.6em;
+  width: 0.6em;
+  right: -0.2em; 
+  top: 50%; 
+  transform: translateY(-50%) rotate(45deg); 
 }
 
-.mc-animation-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    margin-bottom: 15px;
-    /* max-height:120px; */
+.tooltip-container:hover .tooltip {
+  left: 100%;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  z-index: -10;
 }
-
-.mc-animation-wrapper a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* outline: 1px solid #ccc; */
-    border-radius: 100%;
-    /* animation: waveOuter 1s infinite alternate; */
-}
-
-
-@keyframes waveOuter {
-    0% {
-        padding: -10px;
-        width: 100px;
-    }
-
-    100% {
-        padding: 1rem;
-        width: 100px;
-    }
-}
-
-.mc-animation-container {
-    max-width: 120px;
-}
-
-
-
-@keyframes wave {
-    0% {
-        padding: 0;
-    }
-
-    100% {
-        padding: 1rem;
-    }
+.tooltip-container:hover {
+  transform: translateX(-50px);
+  transition: 0.5s linear;
 }

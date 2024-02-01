@@ -4,7 +4,7 @@ import '../css/work.css'
 
 export const Work = () => {
     return (
-        <section className='work-section'>
+        <section className='work-section' id='blog'>
             <div className='container'>
                 <div className='row pb-5'>
                     <div className='col-md-3 col-12'>
@@ -62,9 +62,7 @@ export const Work = () => {
                     </div>
                 </div>
                 {/* <div className='row'> */}
-                    <div className='work-btn'>
-                        <a>See Our Work</a>
-                    </div>
+                <button className="blackbtn">See Our Work</button>
                 {/* </div> */}
             </div>
         </section>

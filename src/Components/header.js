@@ -18,14 +18,14 @@ export const Header = () => {
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                <a class="nav-link" href="#">Our Services</a>
-                                <a class="nav-link" href="#">Our Team</a>
-                                <a class="nav-link" href="#">Our Work</a>
-                                <a class="nav-link" href="#">Blog</a>
+                                <a class="nav-link" href='#services'>Our Services</a>
+                                <a class="nav-link" href="#team">Our Team</a>
+                                <a class="nav-link" href="#work">Our Work</a>
+                                <a class="nav-link" href="#blog">Blog</a>
                             </div>
-                            <div className='header_btn'>
-                                <a href=''>Request a Free Quote</a>
-                            </div>
+                            <button className='header_btn'>
+                                <span href=''>Request a Free Quote</span>
+                            </button>
                         </div>
                     </div>
                 </div>
