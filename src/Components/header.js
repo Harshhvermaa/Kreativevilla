@@ -23,9 +23,9 @@ export const Header = () => {
                                 <a class="nav-link" href="#work">Our Work</a>
                                 <a class="nav-link" href="#blog">Blog</a>
                             </div>
-                            <div className='header_btn'>
-                                <a href=''>Request a Free Quote</a>
-                            </div>
+                            <button className='header_btn'>
+                                <span href=''>Request a Free Quote</span>
+                            </button>
                         </div>
                     </div>
                 </div>
