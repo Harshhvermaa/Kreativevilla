@@ -4,7 +4,7 @@ import TrueComponent from './Components/TrueComponent';
 import FalseComponent from './Components/FalseComponent';
 
 function App() {
-  const condition = true; 
+  const condition = false; 
   return(
   <>
     {condition ? <TrueComponent /> : <FalseComponent />}
