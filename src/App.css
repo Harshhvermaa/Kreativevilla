@@ -108,7 +108,7 @@ body {
   }
   .touch-img {
     width: 8% !important;
-    margin-left: 22px !important;
+    margin-left: 20px !important;
   }
   .touch-text a {
     font-size: 15px !important;
@@ -128,5 +128,4 @@ body {
   .footer-logo {
     margin-left: 21%;
   }
-
 }
