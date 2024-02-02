@@ -32,3 +32,24 @@
     border-radius: 25px;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+.container{
+    padding: 3%;
+}
+.content{
+    text-align: center;
+    margin-top: 4%;
+}
+h4{
+    margin-bottom: 6%;
+}
+p{
+    margin-bottom: 7%;
+}
+.banner-image{
+    margin-top: 8% ;
+}
+}
+
+   

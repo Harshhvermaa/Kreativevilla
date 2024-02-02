@@ -77,3 +77,17 @@
     color: white;
   }
 
+
+
+  @media (max-width: 600px){
+    .work-section{
+        text-align: center;
+    }
+    .blackbtn{
+        margin-left: 0%;
+        background: #816bff 15%;
+        font-weight: 400;
+        color: aliceblue;
+        box-shadow: #5e43ff;
+    }
+  }

@@ -29,7 +29,7 @@ export const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className='row justify-content-center pt-4'>
+                <div className='row justify-content-center'>
                     <div className='col-md-5'>
                         <div className='main-service-box'>
                             <h5>Marketing  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03</h5>
