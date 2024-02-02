@@ -1,18 +1,27 @@
-  .launch-container {
+.launch-container {
     background-color: black;
-  }
-  
-  .launch-video {
-    width: 100%;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.launch-video{
+  width: 100%;
+}
   
   @media (max-width: 600px) {
     .launch-video {
       width: 100%;
-      margin-top: 70%;
     }   
     .launch-container{
       height: 100vh;
     }
   }
-  
+  @media screen and (min-width: 600px) and (max-width: 1240px){
+    .launch-video {
+      width: 100%;
+    }   
+    .launch-container{
+      height: 100vh;
+      text-align: center;
+    }
+  }
