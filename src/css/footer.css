@@ -28,3 +28,16 @@
     font-weight: 400;
     font-family: "Inter", sans-serif;
 }
+
+@media (max-width: 600px){
+    .log{
+        text-align: center;
+    }
+    .footer-logo{
+        margin-left: 21%;
+    }
+    .social-icon{
+        width: 75%;
+        margin-left: 14%;
+    }
+}
