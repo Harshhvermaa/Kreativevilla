@@ -16,8 +16,8 @@
 }
 
 .main-service-box:hover {
-    box-shadow: 0 5px 20px 0px #e1def9;
-    transform: scale(1.05);
+    box-shadow: 0 5px 20px 0px #b8b8b89f;
+    transform: scale(1);
   }
   
 .main-service-box:hover::before, .main-service-box:hover::after {
