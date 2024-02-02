@@ -1,26 +1,10 @@
-body {
-    margin: 0; /* Remove default margin */
-    overflow: hidden; /* Prevent scrolling on the body */
-  }
-  
-  html, body, .launch-container {
-    height: 100%;
-  }
-  
-  body {
-    background-color: #000000; /* Set background color to black */
-  }
-  
   .launch-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    background-color: black;
+    overflow-y: hidden;
   }
   
   .launch-video {
-    width: 91.7%;
-    border-radius: 3%;
+    width: 100%;
   }
   
   @media (max-width: 600px) {
