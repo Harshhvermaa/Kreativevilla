@@ -105,6 +105,7 @@
 
 @media (max-width: 600px){
   .tooltip-container{
-    margin-left: 44%;
+    margin-left: 42%;
+    margin-top: 2%;
   }
 }
