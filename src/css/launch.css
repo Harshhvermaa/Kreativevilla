@@ -1,6 +1,5 @@
   .launch-container {
     background-color: black;
-    overflow-y: hidden;
   }
   
   .launch-video {
@@ -10,10 +9,10 @@
   @media (max-width: 600px) {
     .launch-video {
       width: 100%;
-      height: 100%;
+      margin-top: 70%;
     }   
     .launch-container{
-      margin-top: 70%;
+      height: 100vh;
     }
   }
   
