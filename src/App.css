@@ -1,9 +1,9 @@
 .App {
   text-align: center;
 }
-body{
+body {
   background-color: white;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .App-logo {
@@ -42,82 +42,91 @@ body{
 }
 
 /* Mobile CSS*/
-@media only screen and (max-width: 600px){
-  .first-row{
+@media only screen and (max-width: 600px) {
+  .first-row {
     margin-top: 0px !important;
     flex-direction: column;
   }
-  .header-logo{
+  .header-logo {
     width: 100% !important;
   }
-  .content{
+  .content {
     width: 100% !important;
     padding-bottom: 30px;
   }
-  .content h4{
+  .content h4 {
     font-size: 28px !important;
     line-height: 45px !important;
   }
-  .work-content{
+  .work-content {
     margin-bottom: 20px;
   }
-  .work-content h4{
-    font-size: 20px !important;
+  .work-content h4 {
+    font-size: 22px !important;
   }
-  .views-img{
+  .views-img {
     width: 20%;
   }
-  .views-line a{
+  .views-line a {
     font-size: 12px;
   }
-  .views-line{
+  .views-line {
     width: 68%;
   }
-  .work-btn{
+  .work-btn {
     margin-top: -69px !important;
   }
-  .work-btn a{
+  .work-btn a {
     padding: 7px 15px !important;
     font-size: 10px !important;
   }
-  .main-service-box{
+  .main-service-box {
     padding: 55px 30px !important;
     margin-bottom: 15px;
   }
-  .main-service-box h5{
+  .main-service-box h5 {
     font-size: 17px !important;
   }
-  .brands img{
+  .brands img {
     padding-right: 15px !important;
     width: 25% !important;
   }
-  .client-section{
+  .client-section {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
-  .client-content h5{
+  .client-content h5 {
     font-size: 20px !important;
   }
-  .client-img img{
+  .client-img img {
     width: 100% !important;
     margin-left: 0% !important;
   }
-  .touch-title{
+  .touch-title {
     font-size: 20px !important;
     margin-bottom: 15px !important;
   }
-  .touch-img{
+  .touch-img {
     width: 8% !important;
     margin-left: 22px !important;
   }
-  .touch-text a{
+  .touch-text a {
     font-size: 15px !important;
   }
-  .touch-section{
+  .touch-section {
     padding-top: 20px !important;
     padding-bottom: 10px !important;
   }
-  .social-icon{
+  .social-icon {
     padding-bottom: 30px;
+    width: 75%;
+    margin-left: 14%;
   }
+  .log {
+    text-align: center;
+  }
+  .footer-logo {
+    margin-left: 21%;
+  }
+
 }
