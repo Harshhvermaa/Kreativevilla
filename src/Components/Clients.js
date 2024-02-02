@@ -19,7 +19,7 @@ export const Clients = () => {
                 </div>
                 <div className='col-md-6'>
                     <div className='client-img'>
-                            <video controls>
+                            <video className='vid2' controls>
                                     <source src='./images/vid1.mp4' type='video/mp4' />
                              </video>
                     </div>      &nbsp; &nbsp;&nbsp;  
