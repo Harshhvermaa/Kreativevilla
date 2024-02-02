@@ -90,4 +90,7 @@
         color: aliceblue;
         box-shadow: #5e43ff;
     }
+    .owl-theme .owl-nav{
+        text-align: center !important;
+    }
   }
