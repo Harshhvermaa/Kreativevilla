@@ -20,7 +20,7 @@ export const Services = () => {
                     </div>
                     <div className='col-md-5'>
                         <div className='main-service-box'>
-                            <h5>Developer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02</h5>
+                            <h5>Developer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02</h5>
                             <p>In the sphere of digital marketing management, our development endeavors are marked by a dedication to cutting-edge solutions and technological innovation. Our team of skilled developers is at the forefront of crafting robust, scalable, and performance-driven systems tailored to elevate your digital presence. We are here  with a commitment to excellence.</p>
                             <div className='service-btn'>
                                 <a href='#'>Figma</a>
@@ -43,7 +43,7 @@ export const Services = () => {
                     </div>
                     <div className='col-md-5'>
                         <div className='main-service-box'>
-                            <h5>Ads &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04</h5>
+                            <h5>Ads &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04</h5>
                             <p>In the realm of digital advertising, we orchestrate targeted and impactful campaigns that propel your brand to the forefront of your audience's attention. Our Ads team is dedicated to delivering compelling, results-driven advertisements across various platforms, ensuring maximum visibility and engagement.</p>
                             <div className='service-btn'>
                                 <a href='#'>Figma</a>
