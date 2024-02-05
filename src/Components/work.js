@@ -1,6 +1,7 @@
 import React from 'react'
 import WorkCarousel from './WorkCaraosel'
 import '../css/work.css'
+import { motion } from 'framer-motion'
 
 export const Work = () => {
     return (
@@ -61,7 +62,11 @@ export const Work = () => {
                     </div>
                 </div>
                 {/* <div className='row'> */}
-                <button className="blackbtn">See Our Work</button>
+                <motion.button className="blackbtn"
+                whileHover={{
+                    scale: 1.08
+                }}
+                >See Our Work</motion.button>
                 {/* </div> */}
             </div>
         </section>
