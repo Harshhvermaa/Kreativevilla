@@ -25,10 +25,11 @@
 .content{
     width: 72%;
 }
-.content a{
+.content button{
     background: #5E43FF;
     color: white !important;
     padding: 7px 50px;
+    border: #5E43FF;
     border-radius: 25px;
     cursor: pointer;
 }
